@@ -1,0 +1,76 @@
+@import url("https://use.typekit.net/qdv6her.css");
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.info {
+  padding: 6px 8px;
+  background: white;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.info h4 {
+  margin: 0 0 5px;
+  color: #777;
+}
+
+.legend {
+  text-align: left;
+  line-height: 18px;
+  color: #555;
+}
+
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+body {
+  display: flex;
+  background: #111;
+  color: #eee;
+  font-family: 'neue-haas-unica', sans-serif;
+  line-height: 1.4;
+}
+
+#select-menu {
+  position: absolute;
+  left: 50px;
+  top: 10px;
+  z-index: 10;
+}
+#headPlace {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 10;
+
+padding: 10px;
+width: 200px;
+  background-color: #DDDDDD;
+
+}
+#map,
+#storyPlace {
+  flex: 1;
+  height: calc(100vh - 30px);
+  overflow: scroll;
+  margin: 15px;
+  width: 100%;
+}
+
+#storyPlace * {
+  margin-bottom: 2rem;
+}
+
+#storyPlace img {
+  display: block;
+  width: 100%;
+}
